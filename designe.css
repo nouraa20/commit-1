@@ -1,0 +1,68 @@
+
+
+:root {
+    --primary-color: #003366;
+    --secondary-color: #007acc;
+    --background-color: #b9d3fa;
+    --text-color: #333333;
+    --input-bg: #eaf3ff;
+    --input-border: #cccccc;
+    --button-bg: #0d517e;
+    --button-text: #ffffff;
+    --button-hover-bg: #146d0c;
+}
+
+body.page {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    background: var(--input-bg);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: var(--button-hover-bg);
+}
